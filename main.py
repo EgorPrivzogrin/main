@@ -13,3 +13,5 @@ if __name__ == "__main__":
         x1 = ((-b+math.sqrt(D))/(2*a))
         x2 = ((-b-math.sqrt(D))/(2*a))
         print("Первый корень: "+x1+"; Второй корень: "+x2)
+else:
+    pass
