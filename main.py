@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("Корней нет")
     elif D == 0:
         x1 = (-b/(2*a))
-        print("Корень: "+x)
+        print("Корень: "+x1)
     else:
         x1 = ((-1*b+math.sqrt(D))/(2*a))
         x2 = ((-1*b-math.sqrt(D))/(2*a))
