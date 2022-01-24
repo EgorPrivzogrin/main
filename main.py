@@ -1,17 +1,2 @@
 if __name__ == "__main__":
-    import math
-    a = int(input("Введите коэффициент а: "))
-    b = int(input("Введите коэффициент b: "))
-    c = int(input("Введите коэффициент c: "))
-    D = (b**2)-4*a*c
-    if D < 0:
-        print("Корней нет")
-    elif D == 0:
-        x = (-b/(2*a))
-        print("Корень: "+x)
-    else:
-        x1 = ((-b+math.sqrt(D))/(2*a))
-        x2 = ((-b-math.sqrt(D))/(2*a))
-        print("Первый корень: "+x1+"; Второй корень: "+x2)
-else:
-    pass
+    print(1)
