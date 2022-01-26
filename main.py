@@ -1,5 +1,5 @@
+import math
 if __name__ == "__main__":
-    import math
     a = int(input("Введите коэффициент а: "))
     b = int(input("Введите коэффициент b: "))
     c = int(input("Введите коэффициент c: "))
